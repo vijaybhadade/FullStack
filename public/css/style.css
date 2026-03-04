@@ -1,0 +1,240 @@
+/* Global */
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* Ensure full height */
+  margin: 0;
+}
+
+/* Navbar layout */
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: white;
+  border-bottom: 2px solid #ddd; /* bottom border */
+  width: 100%; /* full width */
+  padding: 0;  /* remove left/right padding */
+  box-sizing: border-box;
+  margin-left: 0;
+}
+
+/* Left side: logo + links */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* space between logo and links */
+  padding-left: 1rem; /* optional small spacing from the absolute edge */
+}
+
+/* Logo */
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  gap: 1.5rem; /* space between each link */
+}
+
+.nav-link {
+  color: #222222 !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #fe424d !important;
+  border-bottom: 2px solid #fe424d; /* hover underline */
+}
+
+/* Footer always stays at bottom */
+footer {
+  margin-top: auto;
+  width: 100%;
+}
+
+/* Footer content box */
+.f-info {
+  text-align: center;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;  /* stack items vertically */
+  justify-content: center; /* center vertically */
+  align-items: center;     /* center horizontally */
+  height: 8rem;
+}
+
+/* Social icons */
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.f-info-social img {
+  cursor: pointer;
+  margin-right: 1rem;
+  height: 1.3rem;
+}
+
+/* Links */
+.f-info-link a {
+  text-decoration: none;
+  color: #222222;
+  margin: 0 0.5rem;
+}
+
+.f-info-link a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* cards */
+.listing-card {
+  border: none !important;
+  margin-bottom: 1rem !important;
+  margin-right: 1rem !important;
+}
+.card-img-top {
+  border-radius: 2rem !important;
+  object-fit: cover !important;
+}
+.card-body {
+  padding: 0 !important;
+}
+.card-text {
+  font-weight: 400 !important;
+}
+.listings-link {
+  text-decoration: none;
+}
+.card-img-overlay {
+  opacity: 0 !important;
+}
+.card-img-overlay:hover {
+  opacity: 0.2 !important;
+  background-color: white;
+}
+
+/* new page */
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* edit page */
+.sub-dark {
+  background-color: #fe424d !important;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 800;
+}
+
+/* show page */
+.show-img {
+  height: 50vh;
+}
+.show-a {
+  text-decoration: none;
+}
+.show-a:hover {
+  text-decoration: underline;
+}
+.btn-show,
+.show-edit {
+  background-color: #fe424d !important;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 800;
+  color: white;
+}
+
+/* comment  */
+.commentArea{
+  margin-left: 14rem !important;
+}
+hr {
+font-size: 14px !important;
+}
+
+/* comment  */
+.commentReview{
+  border: 1px solid black !important;
+}
+#map {
+  height: 400px;
+  width: 100%;
+}
+#filters{
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter {
+  text-align: center;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  opacity: 0.7;
+
+}
+.filter:hover{
+  opacity: 1.5;
+  cursor: pointer;
+}
+#beach img  {
+  height: 25px;
+  width: 25px;
+ }
+.tax-switch{
+  height: 3.3rem; 
+  border-radius: 15px;
+  border: 1px solid black  ;
+ padding: 1rem;
+ margin-top: 2rem;
+margin-left: 4rem;
+display: flex;
+align-items: center;
+}
+/* .form-check {
+  display: flex;
+  
+} */
+ .tax-info{
+  display: none; 
+ }
+ .btn-search
+ {
+  background-color: #fe424d;
+  color: #fff;
+ }
+  .btn-search:hover
+ {
+  background-color: #fe424d;
+  color: #fff; 
+ }
+.btn-search {
+  background-color: #fe424d; /* Wonderlust Red */
+  color: white;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+}
+
+.btn-search i {
+  margin-right: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  display: inline;
+  color: white; /* This works perfectly on icons! */
+  
+}
+.search-input{
+  border-radius: 25px;
+  padding:0.5rem  3rem 0.5rem 3rem;
+  font-size: 1rem;
+}
